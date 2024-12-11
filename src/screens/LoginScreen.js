@@ -19,7 +19,7 @@ const LoginScreen = ({ navigation }) => {
           <Image source={ERPifyLogo} style={styles.logo} resizeMode="contain" />
         </View>
 
-        {/* Title - Updated */}
+        {/* Title*/}
         <Text style={styles.title}>Listen to Your Music</Text>
 
         {/* Separator */}
@@ -28,7 +28,7 @@ const LoginScreen = ({ navigation }) => {
           <View style={styles.separatorLine} />
         </View>
 
-        {/* Music Player Button - Updated */}
+        {/* Music Player Button*/}
         <Pressable
           style={styles.listenButton}
           onPress={() => navigation.navigate("Player")}
@@ -36,7 +36,7 @@ const LoginScreen = ({ navigation }) => {
           <Text style={styles.listenButtonText}>Play Music</Text>
         </Pressable>
 
-        {/* Footer - Optional: Can be removed or updated */}
+        {/* Footer*/}
         <Text style={styles.footerText}>
           Explore a world of music.{" "}
           <Text style={styles.signUpText}>Get Started</Text>
@@ -77,8 +77,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#C0C0C0",
   },
   listenButton: {
-    // Updated styling for the button
-    backgroundColor: "#20BCF5", // Spotify green color for a familiar look
+    backgroundColor: "#20BCF5",
     padding: 15,
     width: "100%",
     borderRadius: 8,
@@ -86,7 +85,6 @@ const styles = StyleSheet.create({
     marginBottom: 15,
   },
   listenButtonText: {
-    // Updated text styling
     color: "white",
     fontWeight: "600",
   },
